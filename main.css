@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.headerbox{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    font-weight:500;
+    align-items: center;
+    color: rgb(136, 136, 136);
+    font-weight: 700;
+    padding-right:2.5rem;
+
+}
+
+.screenlight{
+    position: relative;
+    cursor: pointer;
+}
+
+.light
+{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+}
+
+.light.hidden{
+    display: none;
+}
+
+.dark{
+    position: absolute;
+    display: none;
+    gap: 10px;
+}
+
+.dark.active{
+    display: flex;
+}
+
+.wrapper.darkness{
+    background-color:rgb(24, 10, 43);
+}
+
+
+.searchform{
+    display: flex;
+    width: 43%;
+    height: 5rem;
+    background-color: rgb(28, 44, 59);
+    opacity: .8;
+    border-radius: 8px;
+    justify-content: space-between;
+    margin-left: 3rem;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+[ data-username]{
+    all: unset;
+    background-color: rgb(28, 44, 59);
+    width: 80%;
+    padding-left: 10px;
+}
+[data-username]::placeholder{
+    color: rgb(255, 255, 255);
+}
+    
+
+.btn{
+    all: unset;
+    background-color: rgb(37, 113, 212);
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+    color: white;
+    padding-left: 25px;
+    font-weight:bold
+}
+
+
+
+.githubContent{
+        display: flex;
+        flex-direction: column;
+        width: 43%;
+        height: 60vh;
+        background-color: rgb(28, 44, 59);
+        margin-top: 1rem;
+        margin-left: 50px;
+        opacity: .8;
+        border-radius: 8px;
+        color: white;
+}
+
+.userBio{
+    display: flex;
+    width: 100%;   
+    justify-content: space-between;
+    margin: 20px;
+   
+
+}
+
+.userBio img{
+    width: 7rem;
+    border-radius: 100%;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.bio p:first-of-type{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bio a{
+    all: unset;
+    color: rgb(47, 47, 255);
+    cursor: pointer;
+    margin-bottom:1rem ;
+}
+
+
+.joined{
+    display: flex;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+.flowersContent{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    padding: 1rem 2rem ;
+    margin-right:2rem ;
+    margin-bottom: 3rem;
+    padding-top: -10px;
+    background-color: rgb(24, 10, 43);
+    border-radius: 5px;
+}
+
+.repos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.followers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.following{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -2rem;
+    margin-left: 5rem;
+    margin-bottom: 10px;
+}
+
+
+.social-media-conatiner{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5rem;
+    margin-bottom: 10px;
+}

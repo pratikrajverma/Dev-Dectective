@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/sun.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper darkness">
+        <!-- header box -->
+        <div class="headerbox">
+            <h1>DevDective</h1>
+
+            <div class="screenlight">
+                <div class="light">
+                    <p>LIGHT</p>
+                    <i class="gg-sun"></i>
+                </div>
+
+                <div class="dark">
+                    <p>DARK</p>
+                    <i class="fa fa-moon-o"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- search form input -->
+        <form class="searchform">
+            <i class="gg-search" style="color: rgb(17, 81, 169);" ></i>
+            <input type="text" placeholder=" Enter  Github  user  name..." data-username>
+            <button class="btn" type="submit">Search</button>
+        </form>
+
+
+
+
+        <!-- git content -->
+        <div class="githubContent">
+            <div class="userBio">
+                <img data-dp>
+
+                <div class="bio">
+                    <p data-displayname></p>
+                    
+                    <a data-userlink></a>
+
+                    <p bio-data ></p>
+                </div>
+
+                <div class="joined">
+                    <p>joined</p>
+                    <p joined-date></p>
+                </div>
+            </div>
+
+            <div class="flowersContent">
+                <div class="repos">
+                    <p>repos</p>
+                    <p data-repo></p>
+                </div>
+
+                <div class="followers">
+                    <p>followers</p>
+                    <p data-follower></p>
+                </div>
+
+                <div class="following">
+                    <p>following</p>
+                    <p data-following></p>
+                </div>
+            </div>
+
+            <div class="location-container">
+                <div class="location">
+                    <i style="font-size:24px; color: aliceblue;" class="fa">&#xf041;</i>
+                    <p data-location></p>
+                </div>
+
+                <div class="copy">
+
+                </div>
+            </div>
+
+            <div class="social-media-conatiner">
+                <div class="twiter">
+                    <i style="font-size:24px; color: aliceblue;" class="fa">&#xf099;</i>
+                    <p data-twiter></p>
+                </div>
+                <div class="home">
+                    <i style="color: aliceblue;" class="fa fa-home"></i>
+                    <p data-home></p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
